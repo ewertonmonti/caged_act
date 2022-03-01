@@ -1,0 +1,57 @@
+classe;subclasse;subclasse_str;atividade;act
+55108;5510801;55.10-8/01;Hotéis;Alojamento
+55108;5510802;55.10-8/02;Apart-hotéis;Alojamento
+55906;5590601;55.90-6/01;Albergues, exceto assistenciais;Alojamento
+55906;5590602;55.90-6/02;Campings;Alojamento
+55906;5590603;55.90-6/03;Pensões (alojamento);Alojamento
+55906;5590699;55.90-6/99;Outros alojamentos não especificados anteriormente;Alojamento
+56112;5611201;56.11-2/01;Restaurantes e similares;Servicos de alimentação
+56112;5611202;56.11-2/02;Bares e outros estabelecimentos especializados em servir bebidas;Servicos de alimentação
+56112;5611203;56.11-2/03;Lanchonetes, casas de chá, de sucos e similares;Servicos de alimentação
+56121;5612100;56.12-1/00;Serviços ambulantes de alimentação;Servicos de alimentação
+49507;4950700;49.50-7/00;Trens turísticos, teleféricos e similares;Transporte ferroviário
+49221;4922101;49.22-1/01;Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal, exceto em região metropolitana;Transporte rodoviário
+49221;4922102;49.22-1/02;Transporte rodoviário coletivo de passageiros, com itinerário fixo, interestadual;Transporte rodoviário
+49221;4922103;49.22-1/03;Transporte rodoviário coletivo de passageiros, com itinerário fixo, internacional;Transporte rodoviário
+49230;4923001;49.23-0/01;Serviço de táxi;Transporte rodoviário
+49230;4923002;49.23-0/02;Serviço de transporte de passageiros - locação de automóveis com motorista;Transporte rodoviário
+49299;4929901;49.29-9/01;Transporte rodoviário coletivo de passageiros, sob regime de fretamento, municipal;Transporte rodoviário
+49299;4929902;49.29-9/02;Transporte rodoviário coletivo de passageiros, sob regime de fretamento, intermunicipal, interestadual e internacional;Transporte rodoviário
+49299;4929903;49.29-9/03;Organização de excursões em veículos rodoviários próprios, municipal;Transporte rodoviário
+49299;4929904;49.29-9/04;Organização de excursões em veículos rodoviários próprios, intermunicipal, interestadual e internacional;Transporte rodoviário
+49299;4929999;49.29-9/99;Outros transportes rodoviários de passageiros não especificados anteriormente;Transporte rodoviário
+50114;5011402;50.11-4/02;Transporte marítimo de cabotagem - passageiros;Transporte aquaviário
+50122;5012202;50.12-2/02;Transporte marítimo de longo curso - passageiros;Transporte aquaviário
+50220;5022001;50.22-0/01;Transporte por navegação interior de passageiros em linhas regulares, municipal, exceto travessia;Transporte aquaviário
+50220;5022002;50.22-0/02;Transporte por navegação interior de passageiros em linhas regulares, intermunicipal, interestadual e internacional, exceto travessia;Transporte aquaviário
+50912;5091201;50.91-2/01;Transporte por navegação de travessia, municipal;Transporte aquaviário
+50912;5091202;50.91-2/02;Transporte por navegação de travessia, intermunicipal;Transporte aquaviário
+50998;5099801;50.99-8/01;Transporte aquaviário para passeios turísticos;Transporte aquaviário
+50998;5099899;50.99-8/99;Outros transportes aquaviários não especificados anteriormente;Transporte aquaviário
+51111;5111100;51.11-1/00;Transporte aéreo de passageiros regular;Transporte aéreo
+51129;5112901;51.12-9/01;Serviço de táxi aéreo e locação de aeronaves com tripulação;Transporte aéreo
+51129;5112999;51.12-9/99;Outros serviços de transporte aéreo de passageiros não-regular;Transporte aéreo
+77110;7711000;77.11-0/00;Locação de automóveis sem condutor;Aluguel de automóveis
+79112;7911200;79.11-2/00;Agências de viagens;Agências e operadoras
+79121;7912100;79.12-1/00;Operadores turísticos;Agências e operadoras
+79902;7990200;79.90-2/00;Serviços de reservas e outros serviços de turismo não especificados anteriormente;Agências e operadoras
+90019;9001901;90.01-9/01;Produção teatral;Atividades culturais
+90019;9001902;90.01-9/02;Produção musical;Atividades culturais
+90019;9001903;90.01-9/03;Produção de espetáculos de dança;Atividades culturais
+90019;9001904;90.01-9/04;Produção de espetáculos circenses, de marionetes e similares;Atividades culturais
+90019;9001905;90.01-9/05;Produção de espetáculos de rodeios, vaquejadas e similares;Atividades culturais
+90019;9001999;90.01-9/99;Artes cênicas, espetáculos e atividades complementares não especificadas anteriormente;Atividades culturais
+91023;9102301;91.02-3/01;Atividades de museus e de exploração de lugares e prédios históricos e atrações similares;Atividades culturais
+91031;9103100;91.03-1/00;Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental;Atividades culturais
+92003;9200301;92.00-3/01;Casas de bingo;Ativ. desportivas e recreativas
+92003;9200302;92.00-3/02;Exploração de apostas em corridas de cavalos;Ativ. desportivas e recreativas
+92003;9200399;92.00-3/99;Exploração de jogos de azar e apostas não especificados anteriormente;Ativ. desportivas e recreativas
+93191;9319101;93.19-1/01;Produção e promoção de eventos esportivos;Ativ. desportivas e recreativas
+93191;9319199;93.19-1/99;Outras atividades esportivas não especificadas anteriormente;Ativ. desportivas e recreativas
+93212;9321200;93.21-2/00;Parques de diversão e parques temáticos;Ativ. desportivas e recreativas
+93298;9329801;93.29-8/01;Discotecas, danceterias, salões de dança e similares;Ativ. desportivas e recreativas
+93298;9329802;93.29-8/02;Exploração de boliches;Ativ. desportivas e recreativas
+93298;9329803;93.29-8/03;Exploração de jogos de sinuca, bilhar e similares;Ativ. desportivas e recreativas
+93298;9329804;93.29-8/04;Exploração de jogos eletrônicos recreativos;Ativ. desportivas e recreativas
+93298;9329899;93.29-8/99;Outras atividades de recreação e lazer não especificadas anteriormente;Ativ. desportivas e recreativas
+55108;5510803;55.10-8/03;Motéis;Alojamento
