@@ -8,7 +8,8 @@
 # Fazer download dos arquivos do CAGED disponíveis em ftp.mtps.gov.br/pdet/microdados/NOVO CAGED
 # Descompactar arquivos em uma pasta
 # Informar caminho da pasta
-pasta.txt <- "C:/R/caged" # substituir pelo caminho da pasta no computador
+pasta.txt <- "C:/R/caged/" # substituir pelo caminho da pasta no computador (manter a barra no final do caminho)
+pasta.txt <- "M:/Dados/CAGED/" # substituir pelo caminho da pasta no computador
 
 # Bibliotecas
 library(data.table)
@@ -59,4 +60,4 @@ caged$mes <- ym(caged$competenciamov) # Transformar competenciamov para o format
 
 caged <- caged[, -c("competenciamov", "municipio", "uf_codigo")] # Excluir colunas desnecessárias
 
-write.csv(caged, "caged.csv") # Salvar arquivo csv
+write.csv(caged, "caged_act.csv", fileEncoding = "UTF-8") # Salvar arquivo csv
