@@ -14,7 +14,7 @@ pasta.txt <- "M:/Dados/CAGED/" # substituir pelo caminho da pasta no computador 
 library(data.table)
 library(tidyverse)
 library(janitor) # para limpar nomes
-library(lubridate) # para parse datas
+library(lubridate)
 
 # Lista de ACTs segundo o IPEA
 # Fonte: https://www.ipea.gov.br/extrator/arquivos/160204_caracterizacao_br_re.pdf
