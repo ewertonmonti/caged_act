@@ -58,7 +58,7 @@ rm(list=ls()) # Deleta todos objetos do sistema
 
 # Divisão territorial brasileira
 # Fonte: https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/23701-divisao-territorial-brasileira.html
-dtb <- fread("dtb_2021.csv")
+dtb <- fread("dtb_2021.csv", encoding = "Latin-1")
 
 uf_regiao <- fread("uf_regiao.csv") # Nomes de UF e regiões brasileiras
 
