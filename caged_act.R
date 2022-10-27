@@ -18,7 +18,7 @@ library(lubridate)
 
 # Lista de ACTs segundo o IPEA
 # Fonte: https://www.ipea.gov.br/extrator/arquivos/160204_caracterizacao_br_re.pdf
-act_lista <- fread("acts_ipea.csv")
+act_lista <- fread("acts_ipea.csv", encoding = "Latin-1")
 
 files <- list.files(path = pasta.txt, pattern="CAGED.*.txt") # Listar arquivos
 
@@ -60,7 +60,7 @@ rm(list=ls()) # Deleta todos objetos do sistema
 # Fonte: https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/23701-divisao-territorial-brasileira.html
 dtb <- fread("dtb_2021.csv", encoding = "Latin-1")
 
-uf_regiao <- fread("uf_regiao.csv") # Nomes de UF e regiões brasileiras
+uf_regiao <- fread("uf_regiao.csv", encoding = "Latin-1") # Nomes de UF e regiões brasileiras
 
 caged <- read_rds("caged_act_processed.rds") # Lê registros processados
 
