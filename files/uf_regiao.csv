@@ -1,0 +1,29 @@
+uf_codigo;uf_nome;regiao_nome
+11;Rondônia;Norte
+12;Acre;Norte
+13;Amazonas;Norte
+14;Roraima;Norte
+15;Pará;Norte
+16;Amapá;Norte
+17;Tocantins;Norte
+21;Maranhão;Nordeste
+22;Piauí;Nordeste
+23;Ceará;Nordeste
+24;Rio Grande do Norte;Nordeste
+25;Paraíba;Nordeste
+26;Pernambuco;Nordeste
+27;Alagoas;Nordeste
+28;Sergipe;Nordeste
+29;Bahia;Nordeste
+31;Minas Gerais;Sudeste
+32;Espírito Santo;Sudeste
+33;Rio de Janeiro;Sudeste
+35;São Paulo;Sudeste
+41;Paraná;Sul
+42;Santa Catarina;Sul
+43;Rio Grande do Sul;Sul
+50;Mato Grosso do Sul;Centro-Oeste
+51;Mato Grosso;Centro-Oeste
+52;Goiás;Centro-Oeste
+53;Distrito Federal;Centro-Oeste
+99;Não identificado;Não identificada

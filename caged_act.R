@@ -17,7 +17,7 @@ library(lubridate)
 
 # Lista de ACTs segundo o IPEA
 # Fonte: https://www.ipea.gov.br/extrator/arquivos/160204_caracterizacao_br_re.pdf
-act_lista <- fread("acts_ipea.csv", encoding = "Latin-1")
+act_lista <- fread("files/acts_ipea.csv", encoding = "Latin-1")
 
 files <- list.files(path = "dados/", pattern="CAGED.*.txt") # Listar arquivos
 
@@ -39,13 +39,13 @@ caged <- left_join(caged, act_lista[, .(subclasse, act)], by="subclasse") # Iden
 
 caged <- caged[, .(saldo = sum(saldomovimentacao)), by = .(competenciamov, competenciadec, municipio, act)] # Resumir saldo de empregos por competências de declaração e movimentação, município e ACT
 
-caged_act_processed <- read_rds("caged_act_processed.rds") # Abre arquivo de registros anteriores processados
+caged_act_processed <- read_rds("files/caged_act_processed.rds") # Abre arquivo de registros anteriores processados
 
 caged <- rbind(caged_act_processed, caged) # Empilha novos registros
 
 caged <- distinct(caged) # Deleta registros repetidos (em caso de leitura repetida de dados brutos)
 
-write_rds(caged, "caged_act_processed.rds")
+write_rds(caged, "files/caged_act_processed.rds")
 
 
 
@@ -57,11 +57,11 @@ rm(list=ls()) # Deleta todos objetos do sistema
 
 # Divisão territorial brasileira
 # Fonte: https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/23701-divisao-territorial-brasileira.html
-dtb <- fread("dtb_2021.csv", encoding = "Latin-1")
+dtb <- fread("files/dtb_2021.csv", encoding = "Latin-1")
 
-uf_regiao <- fread("uf_regiao.csv", encoding = "Latin-1") # Nomes de UF e regiões brasileiras
+uf_regiao <- fread("files/uf_regiao.csv", encoding = "Latin-1") # Nomes de UF e regiões brasileiras
 
-caged <- read_rds("caged_act_processed.rds") # Lê registros processados
+caged <- read_rds("files/caged_act_processed.rds") # Lê registros processados
 
 caged <- caged[, .(saldo = sum(saldo)), by = .(competenciamov, municipio, act)] # Resumir saldo de empregos por mês, município e ACT, utilizando registros anteriores e novos 
 
